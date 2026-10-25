@@ -1,2 +1,34 @@
-/.mypy_cache
-notebooks/book/*
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local secrets and machine-specific files
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Generated data and experiment artifacts (keep these in Google Drive)
+/data/
+/checkpoints/
+/models/
+/results/
+/logs/
+
+# Reference material from the book is intentionally excluded.
+/notebooks/book/
